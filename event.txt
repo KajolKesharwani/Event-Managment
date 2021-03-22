@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Management</title>
+	<style>
+		div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 59.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	</style>
+</head>
+<body>
+	<backgrond-color:blue>
+      <div>
+      	<center>
+		<h1><strong>About Us</strong></h1>
+		<p> Professional Events provide a range of high quality learning and development events and distance learning products.
+Professional Events provides a full service for events and conference planning and production.</p>
+        <h1><strong>Event List</strong></h1>
+        <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="E:\Harshali mam lab session\EXTRA NOTES\assignment\social.jpg">
+      <img src="E:\Harshali mam lab session\EXTRA NOTES\assignment\social.jpg" width="300" height="150">
+    </a>
+    <div class="desc"><h1>Social Event</h1>a social event involving a public performance or entertainment; "they wanted to see some of the shows on Broadway". socializing has to be the goal and purpose. Once you sneak in something else  it stops being a purely social event.
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="E:\Harshali mam lab session\EXTRA NOTES\assignment\confrence.jpg">
+      <img src="E:\Harshali mam lab session\EXTRA NOTES\assignment\confrence.jpg" width="300" height="150">
+    </a>
+    <div class="desc"><h1>Conference</h1> “social event” as a gathering where the purpose is to bring people together in a group so they can socialize.  an event characteristic of persons forming groups event - something that happens at a given place and time show - a social event involving a public performance or entertainment; "they wanted to see some of the shows on Broadway"
+</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="E:\Harshali mam lab session\EXTRA NOTES\assignment\marketing.jpg">
+      <img src="E:\Harshali mam lab session\EXTRA NOTES\assignment\marketing.jpg" width="300" height="150">
+    </a>
+    <div class="desc"><h1>Marketing Event</h1>Conventions are large-scale events that focus on education and knowledge. Expositions, or expos, are focused on a tradeshow environment where companies can show off their products. And finally, special events are an umbrella for all other types of events and meetings.
+    	<br>
+    	<br>
+    	<br>
+</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="E:\Harshali mam lab session\EXTRA NOTES\assignment\mainpg.jpg">
+      <img src="E:\Harshali mam lab session\EXTRA NOTES\assignment\mainpg.jpg" width="300" height="150">
+    </a>
+    <div class="desc"><h1>Technical Event</h1>a technical event is a festival organized by engineering colleges to host events related to various technical aspects of what they learn. It is a means for students to showcase their practical talent in the field they? re learning, and not just limit themselves to bookish knowledge.
+    	<br>
+    	<br>
+    	<br>
+</div>
+  </div>
+		</center>
+		<center>
+		<h1><strong>Our Services</strong></h1>
+		<img src="E:\Harshali mam lab session\EXTRA NOTES\assignment\services.jpg" height=200 width=400>
+		<img src="C:\Users\DELL\Downloads\images.jfif" height=200 width=400>
+		<img src="C:\Users\DELL\Downloads\deco.jpg" height=200 width=400>
+		</center>
+		<p><h1 style="text-align: left; margin-left: 100px;">Sound & Lights</h1>
+			<h1 style="text-align: center; margin-top: -50px;">Anchor</h1>
+			<h1 style="text-align: right; margin-top: -70px; margin-right: 100px;">Decoration</h1></p>
+</body>
+</html>

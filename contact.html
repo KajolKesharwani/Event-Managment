@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url(feedb.jpeg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize:vertical;
+}
+.txted{
+          font-size: 1.8rem;
+                line-height: 1.4;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                letter-spacing: 1.6;
+                }
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+/*.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+} */
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+
+<ul class="nav navbar-nav">
+                    <li class="menuItem active"><a href="parth.html">Home</a></li>
+                    <li class="menuItem"><a href="event.html">About Us</a></li>
+                    <!--<li class="menuItem"><a href="#specialties">Specialties</a></li>-->
+                    <li class="menuItem"><a href="test2.html">Book Now</a></li>
+                    <li class="menuItem"><a href="feedback.html">Feedback</a></li>
+                    <li class="menuItem"><a href="contact.html">Contact Us</a></li>
+                  </ul>
+
+<center>
+  <div class="txted"><br>
+    <h1>Contact US</h1></div>  
+
+   
+    
+
+  
+  <div class="row">
+    <div class="column">
+     
+    </div>
+    <div class="column">
+    </center>
+      <form action="/action_page.php">
+        <center>
+        <label for="fname"><strong>Name</strong></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        
+        <label for="lname"><strong>Last Name</strong></label>
+        <input type="text" id="email" name="lastname" placeholder="Your Last Name.."><br>
+
+        <label for="email"><strong>Email</strong></label>
+        <input type="text" id="email" name="EmailAddress" placeholder="Your Email Address.."><br>
+
+        <label for="country"><strong>Country</strong></label>
+        <input type="text" id="email" name="country" placeholder="Your Counrty.."><br>
+
+        
+        <input type="submit" id="submit">
+
+     
+        </center>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
